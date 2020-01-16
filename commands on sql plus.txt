@@ -1,0 +1,34 @@
+C:\>lsnrctl status
+
+LSNRCTL for 64-bit Windows: Version 19.0.0.0.0 - Production on 10-JAN-2020 14:46:55
+
+Copyright (c) 1991, 2019, Oracle.  All rights reserved.
+
+Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1522)))
+STATUS of the LISTENER
+------------------------
+Alias                     LISTENER
+Version                   TNSLSNR for 64-bit Windows: Version 19.0.0.0.0 - Production
+Start Date                10-JAN-2020 12:12:12
+Uptime                    0 days 2 hr. 34 min. 44 sec
+Trace Level               off
+Security                  ON: Local OS Authentication
+SNMP                      OFF
+Listener Parameter File   C:\Users\keshavb\Downloads\WINDOWS.X64_193000_db_home\network\admin\listener.ora
+Listener Log File         C:\oracle\diag\tnslsnr\P-9315\listener\alert\log.xml
+Listening Endpoints Summary...
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=1522)))
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(PIPENAME=\\.\pipe\EXTPROC1522ipc)))
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=tcps)(HOST=P-9315.ortec.finance)(PORT=5500))(Security=(my_wallet_directory=C:\ORACLE\admin\orcl\xdb_wallet))(Presentation=HTTP)(Session=RAW))
+Services Summary...
+Service "CLRExtProc" has 1 instance(s).
+  Instance "CLRExtProc", status UNKNOWN, has 1 handler(s) for this service...
+Service "orcl" has 1 instance(s).
+  Instance "orcl", status READY, has 1 handler(s) for this service...
+Service "orclXDB" has 1 instance(s).
+  Instance "orcl", status READY, has 1 handler(s) for this service...
+The command completed successfully
+
+------------output-----------------------
+(HOST=127.0.0.1)(PORT=1522)))
+sid = orcl
